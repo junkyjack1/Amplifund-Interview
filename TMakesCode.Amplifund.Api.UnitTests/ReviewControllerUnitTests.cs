@@ -1,6 +1,6 @@
 namespace TMakesCode.Amplifund.Api.UnitTests
 {
-    public class UnitTest1
+    public partial class ReviewControllerUnitTests
     {
         [Fact]
         public void Test1()
