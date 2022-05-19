@@ -5,4 +5,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TMakesCode.Amplifund.Domain\TMakesCode.Amplifund.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
