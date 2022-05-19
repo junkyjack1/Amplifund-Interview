@@ -5,4 +5,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TMakesCode.Amplifund.Data.Contracts\TMakesCode.Amplifund.Data.Contracts.csproj" />
+    <ProjectReference Include="..\TMakesCode.Amplifund.Data.Listings\TMakesCode.Amplifund.Data.Listings.csproj" />
+  </ItemGroup>
+
 </Project>

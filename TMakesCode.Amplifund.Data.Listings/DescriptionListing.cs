@@ -6,7 +6,7 @@ namespace TMakesCode.Amplifund.Data.Listings
 {
     public class DescriptionListing
     {
-        private static List<Description> Descriptions { get; }
+        public static List<Description> Descriptions { get; }
 
         static DescriptionListing()
         {
@@ -143,7 +143,7 @@ namespace TMakesCode.Amplifund.Data.Listings
             };
         }
         
-        public IQueryable<Description> Query()
+        public static IQueryable<Description> Query()
         {
             return Descriptions.AsQueryable();
         }
