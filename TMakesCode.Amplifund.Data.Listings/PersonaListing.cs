@@ -44,9 +44,9 @@ namespace TMakesCode.Amplifund.Data.Listings
             };
         }
 
-        public static IQueryable<Persona> Query()
+        public static List<Persona> ToList()
         {
-            return new List<Persona> { Fred, George, Lightning, Marge }.AsQueryable();
+            return new List<Persona> { Fred, George, Lightning, Marge };
         }
     }
 }

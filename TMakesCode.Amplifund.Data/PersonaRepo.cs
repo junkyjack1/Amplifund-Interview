@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using TMakesCode.Amplifund.Data.Contracts;
+using TMakesCode.Amplifund.Data.Listings;
 using TMakesCode.Amplifund.Domain;
 
 namespace TMakesCode.Amplifund.Data
@@ -10,7 +9,7 @@ namespace TMakesCode.Amplifund.Data
     {
         public IEnumerable<Persona> GetPersonas()
         {
-            throw new NotImplementedException();
+            return PersonaListing.ToList();
         }
     }
 }

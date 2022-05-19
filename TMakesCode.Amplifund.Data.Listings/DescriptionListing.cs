@@ -77,7 +77,7 @@ namespace TMakesCode.Amplifund.Data.Listings
             {
                 PersonaId = PersonaListing.Lightning.Id,
                 CarId = CarListing.FxAtmos.Id,
-                Text = "Is really a car if it flies? I'm just saying, I don't think this should even be here."
+                Text = "Is it really a car if it flies? I'm just saying, I don't think this should even be here."
             };
 
             var lightningReviewsLightningMcQueen = new Description()
@@ -143,9 +143,9 @@ namespace TMakesCode.Amplifund.Data.Listings
             };
         }
         
-        public static IQueryable<Description> Query()
+        public static List<Description> ToList()
         {
-            return Descriptions.AsQueryable();
+            return Descriptions;
         }
     }
 }

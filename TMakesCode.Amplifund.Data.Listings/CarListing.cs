@@ -16,36 +16,36 @@ namespace TMakesCode.Amplifund.Data.Listings
         {
             Canopysaurus = new Car
             {
-                Id = 1,
+                Id = 11,
                 Name = "Canopysaurus",
                 Path = "freds-car.jpg"
             };
 
             ChevelleWagon = new Car
             {
-                Id = 2,
+                Id = 22,
                 Name = "1973 Chevelle Wagon",
                 Path = "marges-car.jpg"
             };
 
             LightningMcQueen = new Car
             {
-                Id = 3,
+                Id = 33,
                 Name = "Lightning McQueen",
                 Path = "Lightning_McQueen.png"
             };
 
             FxAtmos = new Car
             {
-                Id = 4,
+                Id = 44,
                 Name = "FX-Atmos",
                 Path = "georges-car.jpg"
             };
         }
 
-        public static IQueryable<Car> Query()
+        public static List<Car> ToList()
         {
-            return new List<Car> { Canopysaurus, ChevelleWagon, LightningMcQueen, FxAtmos }.AsQueryable();
+            return new List<Car> { Canopysaurus, ChevelleWagon, LightningMcQueen, FxAtmos };
         }
     }
 }

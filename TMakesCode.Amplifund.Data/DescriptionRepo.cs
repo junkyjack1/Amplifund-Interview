@@ -9,9 +9,9 @@ namespace TMakesCode.Amplifund.Data
     {
         public Description GetCarDescriptionByPersonaId(int carId, int personaId)
         {
-            return DescriptionListing.Query().FirstOrDefault(description =>
-                description.CarId == description.CarId
-                && description.PersonaId == description.PersonaId
+            return DescriptionListing.ToList().FirstOrDefault(description =>
+                description.CarId == carId
+                && description.PersonaId == personaId
             );
         }
     }

@@ -10,7 +10,7 @@ namespace TMakesCode.Amplifund.Data
     {
         public IEnumerable<Car> GetCars()
         {
-            return CarListing.Query().ToList();
+            return CarListing.ToList();
         }
     }
 }
