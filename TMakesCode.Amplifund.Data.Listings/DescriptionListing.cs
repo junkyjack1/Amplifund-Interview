@@ -56,7 +56,7 @@ namespace TMakesCode.Amplifund.Data.Listings
             {
                 PersonaId = PersonaListing.George.Id,
                 CarId = CarListing.LightningMcQueen.Id,
-                Text = "Talking cars! I remember my grandfather telling me about those. Boy does that take me back."
+                Text = "Talking cars! I remember my grandfather telling me about those. Boy, does that take me back."
             };
 
             var georgeReviewsMargesCar = new Description()
@@ -84,7 +84,7 @@ namespace TMakesCode.Amplifund.Data.Listings
             {
                 PersonaId = PersonaListing.Lightning.Id,
                 CarId = CarListing.LightningMcQueen.Id,
-                Text = "Oh? Hey there good looking -- Ka-chow!"
+                Text = "Oh? Hey there, Good Looking -- Ka-chow!"
             };
 
             var lightningReviewsMargesCar = new Description()
