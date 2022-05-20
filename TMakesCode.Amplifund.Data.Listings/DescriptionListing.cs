@@ -49,7 +49,7 @@ namespace TMakesCode.Amplifund.Data.Listings
             {
                 PersonaId = PersonaListing.George.Id,
                 CarId = CarListing.FxAtmos.Id,
-                Text = "It's not the newest model out, but it sure is relieable."
+                Text = "It's not the newest model out, but it sure is reliable."
             };
 
             var georgeReviewsLightningMcQueen = new Description()
