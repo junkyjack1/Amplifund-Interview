@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using TMakesCode.Amplifund.Biz.Reviews.Contracts;
 using TMakesCode.Amplifund.Domain;
 
