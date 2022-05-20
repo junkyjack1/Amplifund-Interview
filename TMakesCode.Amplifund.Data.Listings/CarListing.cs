@@ -25,7 +25,7 @@ namespace TMakesCode.Amplifund.Data.Listings
             {
                 Id = 22,
                 Name = "1973 Chevelle Wagon",
-                Path = "marges-car.jpg"
+                Path = "marges-car.png"
             };
 
             LightningMcQueen = new Car
